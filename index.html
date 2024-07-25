@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/checklist_2666505.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/To-do-List.css">
+    <title>To-Do-List</title>    
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <p class="css-para">Todo List</p>
+            <div class="css-input-grid">
+
+                <input placeholder="Todo Name" class="js-name-input css-name-input" onkeydown="onenter()">
+                <input type="date" class="js-date-input css-date-input"> 
+                <button onclick="addtodo();" class="css-add-button">Add</button> 
+
+            </div>
+            <div class="js-todo css-todo"></div>            
+            <div class="css-reset-container"><button onclick="todolist.splice(0, todolist.length);render_list();" class="css-reset-button">Reset</button></div>
+        </div>        
+    </div>
+
+    
+    
+    
+    
+
+    <script src="script/To-Do-List.js">
+        console.log(document.querySelectorAll('.js-name-input').addEventListener.key); 
+    </script>
+</body>
+</html>
